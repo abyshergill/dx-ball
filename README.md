@@ -9,7 +9,7 @@ A vibrant, retro-inspired brick breaker game engineered directly for modern web 
 
 Experience the game directly in your browser:
 
-👉 **[Click Here to Play the Live Demo](https://dxball.kinpo.ai)** 
+👉 **[Click Here to Play the Live Demo](https://abyshergill.github.io/dx-ball/)** 
 
 ---
 ![](assests\main.jpg)
