@@ -12,7 +12,7 @@ Experience the game directly in your browser:
 👉 **[Click Here to Play the Live Demo](https://dxball.kinpo.ai)** 
 
 ---
-![IMG ALT](assests\main.jpg)
+![](assests\main.jpg)
 
 ## 🕹️ What is DX-Ball?
 
@@ -49,7 +49,7 @@ This application is built entirely as a self-contained single-page architecture 
 
 1. **Clone or Download the Repository:**
 ```bash
-git clone https://github.com/abyshergill/dx-neon-ball.git
+git clone https://github.com/abyshergill/dx-ball.git
 cd dx-ball
 
 ```
