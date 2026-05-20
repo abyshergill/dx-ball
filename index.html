@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DX-BALL</title>
+    <link rel="stylesheet" href="./css/style.css">   
+</head>
+<body>
+
+    <div class="game-wrapper">
+        <div class="hud-header">
+            <div class="hud-stats-group">
+                <div class="hud-stat">Level: <span id="level-ticker">1</span></div>
+                <div class="hud-stat">Score: <span id="score-ticker">0000</span></div>
+                <div class="hud-stat">Lives: <span id="lives-counter">♥♥♥</span></div>
+            </div>
+
+            <div class="toggles-group">
+                <div class="toggle-item">
+                    <span class="theme-label">Auto Speed</span>
+                    <label class="switch">
+                        <input type="checkbox" id="speed-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="toggle-item">
+                    <span class="theme-label">Light</span>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+            <div class="screen-overlay" id="menu-overlay">
+                <h1 id="menu-title">DX-BALL</h1>
+                <p id="menu-subtitle">Drag finger or use Keyboard (A/D or Arrows) to move. Press spacebar or tap screen to launch ball!</p>
+                <button class="btn-action" id="start-btn">PLAY GAME</button>
+            </div>
+        </div>
+    </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
