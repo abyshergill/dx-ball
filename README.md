@@ -12,7 +12,7 @@ Experience the game directly in your browser:
 👉 **[Click Here to Play the Live Demo](https://abyshergill.github.io/dx-ball/)** 
 
 ---
-![](assests\main.jpg)
+![](assests/main.jpg)
 
 ## 🕹️ What is DX-Ball?
 
